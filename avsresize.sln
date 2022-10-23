@@ -8,11 +8,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsresize", "avsresize\avsr
 		{C8629E57-4D6F-40FA-82FC-B39824195932} = {C8629E57-4D6F-40FA-82FC-B39824195932}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zimg", "..\zimg\_msvc\zimg\zimg.vcxproj", "{C8629E57-4D6F-40FA-82FC-B39824195932}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zimg", "zimg\_msvc\zimg\zimg.vcxproj", "{C8629E57-4D6F-40FA-82FC-B39824195932}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avs_headers", "avs_headers\avs_headers.vcxproj", "{AB9CEEAA-F79B-4E9A-BEDD-3848F3D5FD5B}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		zimg\graphengine\_msvc\graphengine_srcs\graphengine_srcs.vcxitems*{c8629e57-4d6f-40fa-82fc-b39824195932}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86

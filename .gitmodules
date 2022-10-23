@@ -1,0 +1,9 @@
+[submodule "AviSynthPlus"]
+	path = AviSynthPlus
+	url = https://github.com/AviSynth/AviSynthPlus.git
+[submodule "zimg"]
+	path = zimg
+	url = git@github.com:TomArrow/zimg.git
+[submodule "graphengine"]
+	path = graphengine
+	url = git@github.com:TomArrow/graphengine.git

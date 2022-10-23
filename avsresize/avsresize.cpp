@@ -1019,11 +1019,11 @@ namespace {
         { "std-b67",      ZIMG_TRANSFER_ARIB_B67 },
         // Compatibility aliases.
         { "2020",         ZIMG_TRANSFER_BT2020_10 },
+        { "prophoto",     ZIMG_TRANSFER_PROPHOTORGB},
     };
 
     const cpair<char[12], zimg_color_primaries_e> COLOR_PRIMARIES_TABLE[] = {
         { "709",        ZIMG_PRIMARIES_BT709 },
-        { "prophoto",   ZIMG_PRIMARIES_PROPHOTO },
         { "unspec",     ZIMG_PRIMARIES_UNSPECIFIED },
         { "470m",       ZIMG_PRIMARIES_BT470_M },
         { "470bg",      ZIMG_PRIMARIES_BT470_BG },
@@ -1039,6 +1039,7 @@ namespace {
         { "xyz",        ZIMG_PRIMARIES_ST428 },
         { "dci-p3",     ZIMG_PRIMARIES_ST431_2 },
         { "display-p3", ZIMG_PRIMARIES_ST432_1 },
+        { "prophoto",   ZIMG_PRIMARIES_PROPHOTO },
     };
 
     const cpair<char[8], zimg_pixel_range_e> PIXEL_RANGE_TABLE[] = {

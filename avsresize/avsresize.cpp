@@ -1023,6 +1023,7 @@ namespace {
 
     const cpair<char[12], zimg_color_primaries_e> COLOR_PRIMARIES_TABLE[] = {
         { "709",        ZIMG_PRIMARIES_BT709 },
+        { "prophoto",   ZIMG_PRIMARIES_PROPHOTO },
         { "unspec",     ZIMG_PRIMARIES_UNSPECIFIED },
         { "470m",       ZIMG_PRIMARIES_BT470_M },
         { "470bg",      ZIMG_PRIMARIES_BT470_BG },
